@@ -1,0 +1,324 @@
+<html lang="pt-BR">
+
+</html>
+<meta charset="UTF-8">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="c:\Users\ADM\Downloads\reset.css" media="screen" />
+  <link rel="shortcut icon" href="C:\Users\ADM\Documents\HTML\favicon-32x32.png" />
+  <title>Atividade 5</title>
+</head>
+<style>
+  body {
+    background-color: white;
+  }
+
+  .tudo {
+    position: relative;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: hsl(193, 100%, 96%);
+  }
+
+  .imagem-fundo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.5;
+  }
+
+  .imagem-frente {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 150px;
+    height: 30px;
+  }
+
+  .imagem-lado-direito {
+    position: absolute;
+    top: 120px;
+    right: 80px;
+    width: 700px;
+    height: 500px;
+  }
+
+  .pribotaolink {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    background-color: rgba(255, 255, 255, 0.898);
+    border-radius: 50px;
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+
+  .Titulo {
+    top: 240px;
+    left: 50px;
+    color: rgba(0, 0, 0, 0.924);
+    position: absolute;
+    font-size: 30px;
+  }
+
+  .Tituloa {
+    top: 275px;
+    left: 50px;
+    color: rgba(0, 0, 0, 0.924);
+    position: absolute;
+    font-size: 30px;
+  }
+
+  .texto {
+    top: 350px;
+    left: 50px;
+    color: rgba(0, 0, 0, 0.924);
+    position: absolute;
+    font-size: 15px;
+  }
+
+  .textoum {
+    top: 365px;
+    left: 50px;
+    color: rgba(0, 0, 0, 0.924);
+    position: absolute;
+    font-size: 15px;
+  }
+
+  .textodois {
+    top: 380px;
+    left: 50px;
+    color: rgba(0, 0, 0, 0.924);
+    position: absolute;
+    font-size: 15px;
+  }
+
+  .segbotaolink {
+    position: absolute;
+    top: 420px;
+    left: 55px;
+    border-radius: 50px;
+    padding: 15px 60px 15px 60px;
+    font-family: Arial Black, ;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 0, 255);
+    font-size: 15px;
+  }
+
+  .borda {
+    background-color: rgb(255, 255, 255);
+    margin: 75px 50px 50px 50px;
+    padding-bottom: 150px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 5px gray;
+  }
+
+  .textotres {
+    padding-left: 100px;
+    padding-top: 100px;
+    color: rgba(0, 0, 0, 0.924);
+    font-size: 30px;
+  }
+
+  .espaco {
+    margin-top: -23px;
+    font-size: 20px;
+  }
+
+  .espacoa {
+    margin-bottom: 30px;
+    margin-top: -225px;
+  }
+
+  .imagem-grow {
+    margin-left: 650px;
+    height: 300px;
+    width: 350px;
+    margin-top: -25px;
+  }
+
+  .imagem-ilustration {
+    height: 300px;
+    width: 350px;
+    margin-top: -25px;
+  }
+
+  .espacob {
+    margin-bottom: 30px;
+    margin-top: -225px;
+    margin-left: 500px;
+  }
+
+  .espacoc {
+    margin-bottom: 30px;
+    margin-top: -23px;
+    margin-left: 500px;
+    font-size: 20px;
+  }
+
+  .textoquatro {
+    padding-left: 100px;
+    padding-top: 100px;
+    color: rgba(0, 0, 0, 0.924);
+    font-size: 30px;
+  }
+
+  .imagem-users {
+    margin-left: 600px;
+    height: 300px;
+    width: 350px;
+    margin-top: -25px;
+  }
+
+  .espacod {
+    margin-top: -230px;
+    margin-left: 25px;
+  }
+
+  .espacoe {
+    margin-top: -25px;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+
+  .textocinco {
+    padding-left: 100px;
+    padding-top: 100px;
+    color: rgba(0, 0, 0, 0.924);
+    font-size: 30px;
+  }
+
+  .espacof {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.924);
+  }
+
+  .bordadois {
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    padding-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 90px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 5px gray;
+    position: relative;
+  }
+
+  .terbotaolink {
+    margin-left: 145px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 255);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+  }
+  footer {
+    margin-top:-65px;
+    background-color:#08242c;
+    position:static;
+  }
+  .imagem{
+    padding-top: 225px;
+    padding-left: 150px;
+  }
+  .a{
+    color: white;
+    padding-left: 30px;
+  }
+  .b{
+    color: white;
+    padding-left: 195px;
+  }
+  .c{
+    color: white;
+    padding-left: 195px;
+  }
+</style>
+</head>
+
+<body>
+  <div class="tudo">
+    <img src="c:\Users\ADM\Downloads\bg-hero-desktop.svg" class="imagem-fundo">
+    <a href="file:///C:/Users/ADM/Documents/HTML/atividade%205.html"><img src="c:\Users\ADM\Downloads\logo.svg"
+        class="imagem-frente"></a>
+    <img src="c:\Users\ADM\Downloads\illustration-mockups.svg" class="imagem-lado-direito">
+    <div>
+      <a class="pribotaolink" href="file:///C:/Users/ADM/Documents/HTML/atividade%205.html">Try it free</a>
+      <b class="Titulo">Build The Community</b>
+      <b class="Tituloa">Your Fans Will Love</b>
+      <h class="texto">Huddle re-imagines the way we build communities. You have</h>
+      <h class="textoum">a voice, but so does your audience. Create connections with</h>
+      <h class="textodois">your users as you engage in genuine discussion.</h>
+      <a class="segbotaolink" href="file:///C:/Users/ADM/Documents/HTML/atividade%205.html">Get Started For Free </a>
+    </div>
+  </div>
+  <div class="borda">
+    <div class="textotres">
+      <img class="imagem-grow" src="c:\Users\ADM\Downloads\illustration-grow-together.svg">
+      <p class="espacoa">Grow Together</p>
+      <p class="espaco"> Generate meaningful discussions with your audience and</p>
+      <p class="espaco"> build a strong, loyal community. Think of the insightful</p>
+      <p class="espaco"> conversations you miss out on with a feedback form.</p>
+    </div>
+  </div>
+  <div class="borda">
+    <div class="textoquatro">
+      <img class="imagem-ilustration" src="c:\Users\ADM\Downloads\illustration-flowing-conversation.svg">
+      <p class="espacob">Flowing Conversations</p>
+      <p class="espacoc">You wouldn't paginate a conversaion in real life, so why do</p>
+      <p class="espacoc">it online? Our threads have just-in-time loading for a more</p>
+      <p class="espacoc">natural flow.</p>
+    </div>
+  </div>
+  <div class="borda">
+    <div class="textocinco">
+      <img class="imagem-users" src="c:\Users\ADM\Downloads\illustration-your-users.svg">
+      <p class="espacod">Your Users</p>
+      <p class="espacoe">It takes no time at all to integrate Huddle with your app's</p>
+      <p class="espacoe">authentication solution. This means, once signed in to</p>
+      <p class="espacoe">your app, your users can start chatting immediately.</p>
+    </div>
+  </div>
+  <div class="bordadois">
+    <p class="espacof">Ready To Build Your Community?</p>
+    <a class="terbotaolink" href="file:///C:/Users/ADM/Documents/HTML/atividade%205.html">Get Started For Free</a>
+  </div>
+  <div>
+    <footer>
+      <div>
+        <img class="imagem" src="c:\Users\ADM\Downloads\icon-location.svg">
+        <spam class="a">Lorem ipsum dolor sit amet, consectetur</spam><br>
+        <spam class="b">adipiscing elit, sed do eiusmod tempor</spam><br>
+        <spam class="c">incididunt ut labore et dolore magna aliqua</spam>
+      </div>
+      <div>
+      </div>
+    </footer>
+    </div>
+</body>
+
+</html>
